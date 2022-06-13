@@ -1,11 +1,13 @@
-import 'dart:ffi';
+import 'dart:math';
 
-class Cal{
-  Cal(){
+class Cal {
+  Cal() {}
 
+  double square(double numbers) {
+    return pow(numbers, 2) as double;
   }
 
-  double square(double numbers){
-    
+  double logarithm(double numbers) {
+    return log(numbers);
   }
 }
